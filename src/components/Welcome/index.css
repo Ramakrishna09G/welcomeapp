@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.welcome-page-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.welcome-page-container {
+  background-color: #1e293b;
+  height: 90vh;
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.welcome-heading {
+  color: #f0bb03;
+  font-family: 'Bree Serif';
+  font-size: 60px;
+}
+.geeting {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 20px;
+}
+.button {
+  background-color: #ffffff;
+  border-radius: 5px;
+  border-width: 0px;
+  border-style: solid;
+  font-size: 15px;
+  width: 120px;
+  padding: 10px;
+  font-family: 'Bree Serif';
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .welcome-page-container {
+    height: 100vh;
+    width: 55%;
+  }
+  .welcome-heading {
+    font-size: 80px;
+  }
+  .geeting {
+    font-size: 25px;
+  }
+}
